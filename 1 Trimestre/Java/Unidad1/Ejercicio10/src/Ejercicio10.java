@@ -1,18 +1,18 @@
 public class Ejercicio10 {
     public static void main (String[] args) {
 		
-		String ANSI_RED = "\u001B[31m";
-		String ANSI_WHITE = "\u001B[37m";
-		String ANSI_RESET = "\u001B[0m";
+		String ROJO = "\u001B[31m";
+		String BLANCO = "\u001B[37m";
+		String RESET = "\u001B[0m";
 		
-		System.out.println(ANSI_WHITE + "■■■■■■■■■■■■■");
-		System.out.println(ANSI_WHITE + "■■■" + ANSI_RED + "■■■" + ANSI_WHITE + "■" + ANSI_RED + "■■■" + ANSI_WHITE + "■" + ANSI_WHITE + "■■" + ANSI_RESET);
-		System.out.println(ANSI_WHITE + "■■" + ANSI_RED + "■" + ANSI_WHITE + "■■■" + ANSI_RED + "■" + ANSI_WHITE +  "■■■" + ANSI_RED + "■" + ANSI_WHITE + "■■" + ANSI_RESET);
-		System.out.println(ANSI_WHITE + "■■" + ANSI_RED + "■" + ANSI_WHITE + "■■■■■■■" + ANSI_RED + "■" + ANSI_WHITE + "■■" + ANSI_RESET);
-		System.out.println(ANSI_WHITE + "■■■" + ANSI_RED + "■" + ANSI_WHITE + "■■■■■" + ANSI_RED + "■" + ANSI_WHITE + "■■■" + ANSI_RESET);
-		System.out.println(ANSI_WHITE + "■■■■" + ANSI_RED + "■" + ANSI_WHITE + "■■■" + ANSI_RED + "■" + ANSI_WHITE + "■■■■" + ANSI_RESET);
-		System.out.println(ANSI_WHITE + "■■■■■" + ANSI_RED + "■" + ANSI_WHITE + "■" + ANSI_RED + "■" + ANSI_WHITE + "■■■■■" + ANSI_RESET);
-		System.out.println(ANSI_WHITE + "■■■■■■" + ANSI_RED + "■" + ANSI_WHITE + "■■■■■■" + ANSI_RESET);
-		System.out.println(ANSI_WHITE + "■■■■■■■■■■■■■");
+		System.out.println(BLANCO + "■■■■■■■■■■■■■");
+		System.out.println(BLANCO + "■■■" + ROJO + "■■■" + BLANCO + "■" + ROJO + "■■■" + BLANCO + "■" + BLANCO + "■■" + RESET);
+		System.out.println(BLANCO + "■■" + ROJO + "■" + BLANCO + "■■■" + ROJO + "■" + BLANCO +  "■■■" + ROJO + "■" + BLANCO + "■■" + RESET);
+		System.out.println(BLANCO + "■■" + ROJO + "■" + BLANCO + "■■■■■■■" + ROJO + "■" + BLANCO + "■■" + RESET);
+		System.out.println(BLANCO + "■■■" + ROJO + "■" + BLANCO + "■■■■■" + ROJO + "■" + BLANCO + "■■■" + RESET);
+		System.out.println(BLANCO + "■■■■" + ROJO + "■" + BLANCO + "■■■" + ROJO + "■" + BLANCO + "■■■■" + RESET);
+		System.out.println(BLANCO + "■■■■■" + ROJO + "■" + BLANCO + "■" + ROJO + "■" + BLANCO + "■■■■■" + RESET);
+		System.out.println(BLANCO + "■■■■■■" + ROJO + "■" + BLANCO + "■■■■■■" + ROJO);
+		System.out.println(BLANCO + "■■■■■■■■■■■■■");
 	}
 }
