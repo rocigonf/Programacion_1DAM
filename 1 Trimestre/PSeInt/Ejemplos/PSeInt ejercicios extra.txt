@@ -1,0 +1,5 @@
+PSeInt ejercicios extra:
+1- Imprime los números del 1 al 10 en una sola línea.
+(Para; Repetir Hasta; Mientras Hacer)
+2- Pintar un rombo de asteriscos a partir de los ejercicios ya entregados. (USANDO FUNCIONES)
+3- Subir los ejercicios a github.
