@@ -5,7 +5,7 @@
  * 
  * @author Rocío Alejandra Gonfaus Luengo 2023
  */
-public class Ejercicio2 {
+public class Ejercicio2U2 {
     public static void main(String[] args) throws Exception {
         String nombre = "Rocío Gonfaus Luengo";
         System.out.println("¡Hola! Mi nombre es " + nombre + ".");

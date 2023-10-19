@@ -5,7 +5,7 @@
  * @author Rocío Alejandra Gonfaus Luengo 2023
  * 
  */
-public class Ejercicio6 {
+public class Ejercicio6U2 {
     public static void main(String[] args) throws Exception {
 
         //Declaramos las variables de la base imponible y el IVA (21%).

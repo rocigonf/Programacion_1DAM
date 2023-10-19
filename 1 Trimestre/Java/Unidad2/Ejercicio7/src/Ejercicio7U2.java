@@ -6,7 +6,7 @@
  * @author Rocío Alejandra Gonfaus Luengo 2023
  * 
  */
-public class Ejercicio7 {
+public class Ejercicio7U2 {
     public static void main(String[] args) throws Exception {
         //Declaramos las variables de las letras que conforman las palabras "Buenas tardes".
         char a1 = 'B';

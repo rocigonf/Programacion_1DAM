@@ -1,4 +1,10 @@
-public class Ejercicio10 {
+/**
+ * Mejora el ejercicio anterior añadiéndole colores.
+ * 
+ * @author Rocío Alejandra Gonfaus Luengo 2023
+ */
+
+public class Ejercicio10U1 {
     public static void main (String[] args) {
 		
 		String ROJO = "\u001B[31m";

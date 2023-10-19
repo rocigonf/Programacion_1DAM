@@ -1,6 +1,12 @@
+/**
+ * Modifica el programa anterior añadiendo colores. Puedes mostrar cada asignatura
+ * de un color diferente.
+ * 
+ * @author Rocío Alejandra Gonfaus Luengo 2023
+ */
 package Unidad1.Ejercicio5.src;
 
-public class Ejercicio5 {
+public class Ejercicio5U1 {
     public static void main(String[] args) {
 		String red = "\033[91m";
 		String green = "\033[92m";

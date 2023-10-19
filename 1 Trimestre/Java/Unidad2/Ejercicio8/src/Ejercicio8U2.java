@@ -7,7 +7,7 @@
  * @author Rocío Alejandra Gonfaus Luengo 2023
  * 
  */
-public class Ejercicio8 {
+public class Ejercicio8U2 {
     public static void main(String[] args) throws Exception {
         char a = 'A';
         char d = 'd';

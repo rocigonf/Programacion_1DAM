@@ -4,7 +4,7 @@
  * 
  * @author Rocío Alejandra Gonfaus Luengo 2023
  */
-public class Ejercicio4 {
+public class Ejercicio4U2 {
     public static void main(String[] args) throws Exception {
     
     //Declaro la variable euros con la cantidad que deseo convertir.

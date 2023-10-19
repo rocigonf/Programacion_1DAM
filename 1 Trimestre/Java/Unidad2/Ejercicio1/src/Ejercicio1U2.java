@@ -5,7 +5,7 @@
  * 
  * @author Rocío Alejandra Gonfaus Luengo 2023
  */
-public class Ejercicio1 {
+public class Ejercicio1U2 {
     public static void main(String[] args) throws Exception {
         //Declaramos variables x e y, valiendo respectivamente 144 y 999.
         float x = 144;

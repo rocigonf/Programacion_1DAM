@@ -5,7 +5,7 @@
  * 
  * @author Rocío Alejandra Gonfaus Luengo 2023
  */
-public class Ejercicio3 {
+public class Ejercicio3U2 {
     public static void main(String[] args) throws Exception {
         String nombre = "Rocío Gonfaus Luengo";
         String calle = "C/Ejemplo de Calle";
