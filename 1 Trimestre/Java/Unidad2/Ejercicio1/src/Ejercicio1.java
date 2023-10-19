@@ -1,3 +1,10 @@
+/**
+ * Escribe un programa en el que se declaren las variables enteras x e y. Asígnales
+ * los valores 144 y 999 respectivamente. A continuación, muestra por pantalla
+ * el valor de cada variable, la suma, la resta, la división y la multiplicación.
+ * 
+ * @author Rocío Alejandra Gonfaus Luengo 2023
+ */
 public class Ejercicio1 {
     public static void main(String[] args) throws Exception {
         //Declaramos variables x e y, valiendo respectivamente 144 y 999.

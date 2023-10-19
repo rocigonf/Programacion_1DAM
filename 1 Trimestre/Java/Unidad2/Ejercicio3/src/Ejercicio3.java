@@ -1,3 +1,10 @@
+/**
+ * Crea las variables nombre, direccion y telefono y asígnales los valores correspondientes.
+ * Muestra los valores de esas variables por pantalla de tal forma que el
+ * resultado del programa sea el mismo que en el ejercicio 2.
+ * 
+ * @author Rocío Alejandra Gonfaus Luengo 2023
+ */
 public class Ejercicio3 {
     public static void main(String[] args) throws Exception {
         String nombre = "Rocío Gonfaus Luengo";

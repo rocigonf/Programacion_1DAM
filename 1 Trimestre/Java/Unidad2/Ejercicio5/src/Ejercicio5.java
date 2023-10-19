@@ -1,3 +1,9 @@
+/**
+ * Realiza un conversor de pesetas a euros. La cantidad en pesetas que se quiere
+ * convertir deberá estar almacenada en una variable.
+ * 
+ *  @author Rocío Alejandra Gonfaus Luengo 2023
+ */
 public class Ejercicio5 {
     public static void main(String[] args) throws Exception {
     //Declaro la variable pesetas con la cantidad que deseo convertir.
