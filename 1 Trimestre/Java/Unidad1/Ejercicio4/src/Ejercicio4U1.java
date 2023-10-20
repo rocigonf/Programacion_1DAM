@@ -1,4 +1,8 @@
-
+/**
+ * Escribe un programa que muestre tu horario de clase.
+ * 
+ * @author Rocío Alejandra Gonfaus Luengo 2023
+ */
 public class Ejercicio4U1 {
     public static void main(String[] args) {
         System.out.println("┌───────┬─────────┬─────────┬────────────┬─────────┬─────────┐");

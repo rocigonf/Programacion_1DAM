@@ -1,3 +1,10 @@
+/**
+ * Escribe un programa que muestre por pantalla 10 palabras en inglés junto a su
+ * correspondiente traducción al castellano. Las palabras deben estar distribuidas
+ * en dos columnas y alineadas a la izquierda.
+ * 
+ * @author Rocío Alejandra Gonfaus Luengo 2023
+ */
 public class Ejercicio3U1 {
     public static void main(String[] args) {
         System.out.println("cat         gato");
