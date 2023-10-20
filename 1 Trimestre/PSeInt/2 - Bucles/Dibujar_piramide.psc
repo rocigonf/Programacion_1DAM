@@ -1,8 +1,8 @@
-//7. Escribe un programa que dibuje una pirámide de altura N. Tendrás que solicitar la altura de la pirámide 
+//7. Escribe un programa que dibuje una pirï¿½mide de altura N. Tendrï¿½s que solicitar la altura de la pirï¿½mide 
 // y luego debes pintarla de la siguiente manera:
 
 Algoritmo Dibujar_piramide
-	Escribir "Voy a dibujar una pirámide con asteriscos. Dime la altura que quieres que tenga."
+	Escribir "Voy a dibujar una pirï¿½mide con asteriscos. Dime la altura que quieres que tenga."
 	Leer altura
 	base<-1
 	fila<-1
@@ -11,6 +11,8 @@ Algoritmo Dibujar_piramide
 		Para i<-1 Hasta espacio Con Paso 1 Hacer
 			Escribir " " Sin Saltar
 		FinPara
+		
+		//Comentario post correciÃ³n: ï¿½Se podrï¿½a llamar 'fila', 'numAsteriscos' o similar?
 		Para i<-1 Hasta fila Con Paso 1 Hacer
 			Escribir "*" Sin Saltar
 		Fin Para

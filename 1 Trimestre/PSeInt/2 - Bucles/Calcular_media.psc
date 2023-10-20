@@ -1,17 +1,19 @@
-//4. Realice un programa que solicite números y muestre el valor medio de los mismos. Tendrás que pedir cuántos números se van a 
-//introducir para acto seguido ir solicitando los valores. Una vez leídos todos los valores debes mostrar el resultado
-//de la media de los valores. Media = Suma de los valores dividido entre el número de valores.
+//4. Realice un programa que solicite nï¿½meros y muestre el valor medio de los mismos. Tendrï¿½s que pedir cuï¿½ntos nï¿½meros se van a 
+//introducir para acto seguido ir solicitando los valores. Una vez leï¿½dos todos los valores debes mostrar el resultado
+//de la media de los valores. Media = Suma de los valores dividido entre el nï¿½mero de valores.
 
 Algoritmo Calcular_media
-	Escribir "Dime números y calcularé la media de todos."
-	Escribir "¿Cuántos números vas a decir?"
+	Escribir "Dime nï¿½meros y calcularï¿½ la media de todos."
+	Escribir "ï¿½Cuï¿½ntos nï¿½meros vas a decir?"
 	Leer cantidad
+	
+	//Comentario post correciÃ³n: En lugar de restarle a 'cantidad' una unidad, puedes comenzar el bucle PARA en 1 (en lugar de 0) y te ahorras una operaciï¿½n.
 	cantidad<-cantidad-1
 	Para i<-0 Hasta cantidad Con Paso 1 Hacer
-		Escribir "Introduce un número:"
+		Escribir "Introduce un nï¿½mero:"
 		Leer num
 		suma<-suma+num
 	Fin Para
 	media<-(suma / i)
-	Escribir "La media de los números introducidos es: ",media
+	Escribir "La media de los nï¿½meros introducidos es: ",media
 FinAlgoritmo
