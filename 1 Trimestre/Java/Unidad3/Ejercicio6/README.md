@@ -1,0 +1,3 @@
+## Ejercicio nº6 de la Unidad 3.
+
+Escribe un programa que calcule el área de un triángulo.
