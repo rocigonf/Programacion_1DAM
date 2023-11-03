@@ -13,7 +13,7 @@ public class Ejercicio2U4 {
         //Inicializamos el Scanner.
         Scanner dato = new Scanner(System.in);
 
-        //Pedimos la hora.
+        //Pedimos la hora por teclado.
         System.out.println("Introduce la hora actual. (En formato 24h y sin tener en cuenta los minutos.)");
         int hora = dato.nextInt();
         
