@@ -6,7 +6,10 @@
  */
 public class Ejercicio5U5 {
     public static void main(String[] args) throws Exception {
-        int i = 360;
+        //Inicializamos la variable i.
+        int i = 320;
+
+        //En este bucle, mientras i sea mayor o igual a 160, imprimirá i disminuyendo en 20 cada vuelta.
         while (i >= 160) {
             System.out.println(i);
             i = i - 20;
