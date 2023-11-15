@@ -13,10 +13,10 @@ public class Ejercicio10U4 {
 		Scanner dato = new Scanner(System.in);
 		
         //Pedimos los datos.
-		System.out.println("Por favor, introduzca su mes de nacimiento");
+		System.out.print("Por favor, introduzca su mes de nacimiento: ");
 		String mes = dato.nextLine();
 		
-		System.out.println("Ahora introduzca su día de nacimiento");
+		System.out.print("Ahora introduzca su día de nacimiento: ");
 		int dia = dato.nextInt();
 
         //Cerramos el Scanner para evitar un error de fuga de memoria.
