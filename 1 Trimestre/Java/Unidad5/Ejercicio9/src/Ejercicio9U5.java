@@ -11,8 +11,16 @@
 import java.util.Scanner;
 public class Ejercicio9U5 {
     public static void main(String[] args) throws Exception {
+        //Inicializamos el Scanner.
         Scanner dato = new Scanner(System.in);
+
+        //Pedimos el número por teclado.
         System.out.print("Introduce un número y te diré cuántos dígitos tiene: ");
         int num = dato.nextInt();
+
+        for (int i = 0; i < 100; i++){
+
+        }
+        dato.close();
     }
 }
