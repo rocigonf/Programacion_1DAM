@@ -11,6 +11,8 @@
 import java.util.Scanner;
 public class Ejercicio9U5 {
     public static void main(String[] args) throws Exception {
+        //EJERCICIO POR COMPLETAR
+        //EJERCICIO POR COMPLETAR
         //Inicializamos el Scanner.
         Scanner dato = new Scanner(System.in);
 
@@ -19,7 +21,7 @@ public class Ejercicio9U5 {
         int num = dato.nextInt();
 
         for (int i = 0; i < 100; i++){
-
+            System.out.println(num);
         }
         dato.close();
     }
