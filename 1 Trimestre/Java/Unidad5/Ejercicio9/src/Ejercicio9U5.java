@@ -11,18 +11,26 @@
 import java.util.Scanner;
 public class Ejercicio9U5 {
     public static void main(String[] args) throws Exception {
-        //EJERCICIO POR COMPLETAR
-        //EJERCICIO POR COMPLETAR
+
         //Inicializamos el Scanner.
         Scanner dato = new Scanner(System.in);
 
-        //Pedimos el número por teclado.
+        //Pedimos el número por teclado e inicializamos variables.
         System.out.print("Introduce un número y te diré cuántos dígitos tiene: ");
-        int num = dato.nextInt();
+        int numIntroducido = dato.nextInt();
+        int digitos = 1;
+        int cont = numIntroducido;
 
-        for (int i = 0; i < 100; i++){
-            System.out.println(num);
-        }
+        //Cerramos el Scanner para evitar errores de fuga de memoria.
         dato.close();
+
+        //El número de veces que la cifra se puede dividir entre 10, es el número de cifras que tiene. Cada vez que "cont" se divide entre 10, la variable "digitos" aumenta en 1.
+        while (cont > 10) {
+            cont = cont / 10;
+            digitos++;
+            }
+
+        //Imprimimos el resultado por pantalla.
+        System.out.println("El número " + numIntroducido + " tiene " + digitos + " dígitos.");
     }
 }
