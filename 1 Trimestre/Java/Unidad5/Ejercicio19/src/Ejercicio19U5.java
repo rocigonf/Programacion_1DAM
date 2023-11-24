@@ -16,7 +16,7 @@ public class Ejercicio19U5 {
         System.out.println("Voy a pintar una pirámide.");
         System.out.print("Introduce la altura: ");
         int altura = dato.nextInt();
-        System.out.print("Introduce un carácter con el que quieres que pinte la pirámide: ");
+        System.out.print("Introduce un símbolo con el que pintar la pirámide: ");
         String simbolo = dato.next();
 
         int base = 1, fila = 1;
