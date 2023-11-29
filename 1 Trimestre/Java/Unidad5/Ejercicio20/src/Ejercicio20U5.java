@@ -3,7 +3,6 @@
  * 
  * @author Rocío Alejandra Gonfaus Luengo 2023
  */
-import java.lang.System;
 import java.util.Scanner;
 public class Ejercicio20U5 {
     public static void main(String[] args) throws Exception {
