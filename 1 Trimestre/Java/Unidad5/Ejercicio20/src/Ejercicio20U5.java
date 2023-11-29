@@ -6,9 +6,6 @@
 import java.util.Scanner;
 public class Ejercicio20U5 {
     public static void main(String[] args) throws Exception {
-        //EJERCICIO INCOMPLETO
-        //EJERCICIO INCOMPLETO
-        //EJERCICIO INCOMPLETO
         //Inicializamos el Scanner.
         Scanner dato = new Scanner(System.in);
 
