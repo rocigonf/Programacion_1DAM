@@ -20,3 +20,4 @@ public class Ejercicio2U7 {
         System.out.println("Valor:     " + simbolo[0] + "    " + simbolo[1] + "    " + simbolo[2] + "     " + simbolo[3] + "     " + simbolo[4] + "    " + simbolo[5] + "     " + simbolo[6] + "    " + simbolo[7] + "    " + simbolo[8] + "    " + simbolo[9]);
     }
 }
+
