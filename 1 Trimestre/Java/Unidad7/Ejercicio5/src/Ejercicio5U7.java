@@ -26,6 +26,10 @@ public class Ejercicio5U7 {
             if (listaNum[i] > max) {
                 max = listaNum[i];
             }
+            //Cerramos el Scanner.
+            if (i == 10) {
+                dato.close();
+            }
         }
         System.out.println();
 
