@@ -1,13 +1,14 @@
-package Funciones;
+package Funciones.Matemáticas;
 /**
  * Biblioteca de funciones matemáticas.(Ejercicios 1-14)
  * 
  * @author Rocío Alejandra Gonfaus Luengo 2024
  */
-public class Funciones{
+public class Matemáticas{
 
+    //Ej1
     /**
-     * 1. Función que devuelve true si el número es capicúa y false si no lo es.
+     * Función que devuelve true si el número es capicúa y false si no lo es.
      * 
      * @param x número del que se quiere saber si es capicúa
      * @return true si el número es capicúa y false para el caso contrario.
@@ -20,8 +21,9 @@ public class Funciones{
         return false;
     }
 
+    //Ej2
     /**
-     * 2. Función que verifica si un número es primo.
+     * Función que verifica si un número es primo.
      * 
      * @param x Número a verificar
      * @return true si el número es primo, false de lo contrario
@@ -39,8 +41,9 @@ public class Funciones{
         return true; // Si no hay ningún divisor, el número es primo
     }
 
+    //Ej3
     /**
-     * 3. Función que devuelve el menor primo que es mayor al número dado.
+     * Función que devuelve el menor primo que es mayor al número dado.
      * 
      * @param x Número de referencia
      * @return El menor primo mayor que el número dado
@@ -55,8 +58,9 @@ public class Funciones{
         return siguiente;
     }
 
+    //Ej4
     /**
-     * 4. Función que devuelve la potencia de una base y exponente.
+     * Función que devuelve la potencia de una base y exponente.
      * 
      * @param base base de la potencia
      * @param exponente exponente de la potencia
@@ -67,8 +71,9 @@ public class Funciones{
         return potenciaNum;
     }
 
+    //Ej5
     /**
-     * 5. Función que cuenta el número de dígitos de un número entero.
+     * Función que cuenta el número de dígitos de un número entero.
      * 
      * @param x número al que se le van a contar los dígitos.
      * @return número de dígitos del número entero.
@@ -85,8 +90,9 @@ public class Funciones{
         return cont;
     }
 
+    //Ej6
     /**
-     * 6. Función que le da la vuelta a un número.
+     * Función que le da la vuelta a un número.
      * 
      * @param x número al que se le va a dar la vuelta
      * @return número volteado
@@ -103,9 +109,9 @@ public class Funciones{
         return numVolteado;
     }
 
+    //Ej7
     /**
-    /* 7. Función que devuelve el dígito que está en la posición n de un número entero.
-    *     Se empieza contando por el 0 y de izquierda a derecha.
+    * Función que devuelve el dígito que está en la posición n de un número entero. Se empieza contando por el 0 y de izquierda a derecha.
     *
     * @param x número entero
     * @param n posición dentro del número <code>x</code>
@@ -120,9 +126,9 @@ public class Funciones{
         return (int)x % 10;
     }
 
+    //Ej8
     /**
-    * 8. Función que da la posición de la primera ocurrencia de un dígito dentro de un número
-    *    entero. Si no se encuentra, devuelve -1.
+    * Función que da la posición de la primera ocurrencia de un dígito dentro de un número entero. Si no se encuentra, devuelve -1.
     *
     * @param x número entero
     * @param d dígito a buscar dentro del número
@@ -139,8 +145,9 @@ public class Funciones{
             }
     }
 
+    //Ej9
     /**
-     * 9. Función que le quita a un número n dígitos por detrás (por la derecha).
+     * Función que le quita a un número n dígitos por detrás (por la derecha).
      * 
      * @param x número al cual se quitarán los dígitos
      * @param n cantidad de dígitos que se quitarán
@@ -159,8 +166,9 @@ public class Funciones{
         return resultado;
     }
 
+    //Ej10
     /**
-     * 10. Función que quita una cantidad n de dígitos por delante de un número.
+     * Función que quita una cantidad n de dígitos por delante de un número.
      *
      * @param x número al cual se quitarán los dígitos
      * @param n La cantidad de dígitos que se quitarán
@@ -181,8 +189,9 @@ public class Funciones{
         return resultado;
     }
     
+    //Ej11
     /**
-     * 11. Función que pega por detrás un nuevo dígito a un número.
+     * Función que pega por detrás un nuevo dígito a un número.
      * 
      * @param x número al que se le van a pegar números por detrás
      * @param y dígito que se va a pegar por detrás del número original
@@ -192,8 +201,9 @@ public class Funciones{
         return x * 10 + y;
     }
     
+    //Ej12
     /**
-     * 12. Función que pega por delante un nuevo dígito a un número.
+     * Función que pega por delante un nuevo dígito a un número.
      * 
      * @param x número al que se le van a pegar números por delante
      * @param y dígito que se va a pegar por delante del número original
@@ -204,9 +214,9 @@ public class Funciones{
         return nuevoNumero;
     }
 
+    //Ej13
     /**
-     * 12. Función que toma como parámetros las posiciones inicial y final 
-     *     dentro de un número y devuelve el trozo correspondiente.
+     * Función que toma como parámetros las posiciones inicial y final dentro de un número y devuelve el trozo correspondiente.
      * 
      * @param x número entero
      * @param inicio posición inicial
@@ -220,6 +230,7 @@ public class Funciones{
         return x;
     }
 
+    //Ej14
     /**
     * Función que pega dos números para formar uno solo.
     *
@@ -230,12 +241,82 @@ public class Funciones{
     public static long juntaNumeros(int x, int y) {
         return (long)(x * potencia(10, digitos(y))) + y;
     }
-    
-    public static void main(String[] args) {
-        for (int i = 0; i < 1000; i++) {
-            if (esPrimo(i) == true) {
-                System.out.println(i);
-            }
-        }
+
+    //Ej15
+    /**
+     * Función que convierte binario a decimal.
+     * 
+     * @param x número binario a convertir
+     * @return número decimal resultante de la conversión
+     */
+    public static int pasarADecimal(String x){
+        return Integer.parseInt(x,2);
+    }
+
+    //Ej16
+    /**
+     * Función que convierte decimal a binario.
+     * @param x número decimal a convertir
+     * @return número binario resultante de la conversión
+     */
+    public static String pasarABinario(int x){
+        return Integer.toBinaryString(x);
+    }
+
+    //Ej17. Similares a las dos funciones anteriores pero con más opciones.
+    /**
+     * Función que convierte un número decimal a binario, hexadecimal y octal.
+     * 
+     * @param x número decimal a convertir
+     * @return números resultantes de las conversiones
+     */
+    public static String convertirDecimal(String x) {
+        int decimal = Integer.parseInt(x);
+        return "Decimal: " + decimal +
+                "\nBinario: " + Integer.toBinaryString(decimal) +
+                "\nHexadecimal: " + Integer.toHexString(decimal) +
+                "\nOctal: " + Integer.toOctalString(decimal);
+    }
+
+    /**
+     * Función que convierte un número binario a decimal, hexadecimal y octal.
+     * 
+     * @param x número binario a convertir
+     * @return números resultantes de las conversiones
+     */
+    public static String convertirBinario(String x) {
+        int decimal = Integer.parseInt(x, 2);
+        return "Binario: " + x +
+                "\nDecimal: " + decimal +
+                "\nHexadecimal: " + Integer.toHexString(decimal) +
+                "\nOctal: " + Integer.toOctalString(decimal);
+    }
+
+    /**
+     * Función que convierte un número hexadecimal a decimal, binario y octal.
+     * 
+     * @param x número hexadecimal a convertir
+     * @return números resultantes de las conversiones
+     */
+    public static String convertirHexadecimal(String x) {
+        int decimal = Integer.parseInt(x, 16);
+        return "Hexadecimal: " + x +
+                "\nDecimal: " + decimal +
+                "\nBinario: " + Integer.toBinaryString(decimal) +
+                "\nOctal: " + Integer.toOctalString(decimal);
+    }
+
+    /**
+     * Función que convierte un número octal a decimal, binario y hexadecimal.
+     * 
+     * @param x número octal a convertir
+     * @return números resultantes de las conversiones
+     */
+    public static String convertirOctal(String x) {
+        int decimal = Integer.parseInt(x, 8);
+        return "Octal: " + x +
+                "\nDecimal: " + decimal +
+                "\nBinario: " + Integer.toBinaryString(decimal) +
+                "\nHexadecimal: " + Integer.toHexString(decimal);
     }
 }
