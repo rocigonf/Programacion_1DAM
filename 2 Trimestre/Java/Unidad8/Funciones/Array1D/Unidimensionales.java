@@ -71,8 +71,8 @@ public class Unidimensionales {
     /**
      * Función que devuelve la media del array que se pasa como parámetro.
      * 
-     * @param x 
-     * @return
+     * @param x  array introducido como parámetro
+     * @return devuelve la media de los números del array
      */
     public static double mediaArrayInt(int[] x){
         //Inicializa la suma.
