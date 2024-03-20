@@ -1,0 +1,12 @@
+
+botella
+caballo
+cara
+gato
+manzana
+mesa
+objeto
+pantalla
+pizarra
+portátil
+ratón
