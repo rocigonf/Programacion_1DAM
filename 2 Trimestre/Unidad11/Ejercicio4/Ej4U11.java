@@ -26,10 +26,12 @@ public class Ej4U11 {
         try {
             //Se lee el archivo (lista de palabras desordenadas).
             BufferedReader br = new BufferedReader(new FileReader(args[0]));
+
             //Creamos variables para determinar la posición en el nombre del nuevo archivo añadiendo "_sort" al final.
             int length = args[0].length();
             String nombre = args[0].substring(0, length - 4);
             String extension = args[0].substring(length - 4, length);
+            
             //Creamos el archivo nuevo y un ArrayList para almacenar y ordenar las palabras.
             BufferedWriter bw = new BufferedWriter(new FileWriter(nombre + "_sort" + extension));
             List<String> listaPalabras = new ArrayList<String>();
