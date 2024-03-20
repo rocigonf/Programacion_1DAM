@@ -19,19 +19,22 @@ import java.io.IOException;
  */
 public class Ej3U11 {
     public static void main(String[] args) throws Exception {
+
+        //Argumentos
         if (args.length != 2) {
             System.out.println("Uso del programa: java Ej3U11 FICHERO1 FICHERO2");
             System.exit(-1); // sale del programa
         }
 
         try {
+            //Se leen los dos archivos de texto que se pasan por parámetro y se crea uno nuevo.
             BufferedReader br1 = new BufferedReader(new FileReader(args[0]));
             BufferedReader br2 = new BufferedReader(new FileReader(args[1]));
             BufferedWriter bw = new BufferedWriter(new FileWriter("mezcla.txt"));
-    
             String linea1 = "";
             String linea2 = "";
     
+            //Lee las líneas de forma intercalada y las va almacenando en el archivo de texto nuevo.
             while ((linea1 != null || linea2 != null)) {
                 linea1 = br1.readLine();
                 linea2 = br2.readLine();
@@ -42,11 +45,14 @@ public class Ej3U11 {
                     bw.write(linea2 + "\n");
                 }
             }
+
             br1.close();
             br2.close();
             bw.close();
+
+            //Sale un mensaje de fichero creado con éxito.
             System.out.println("Archivo mezcla.txt creado satisfactoriamente.");
-            
+        //Si hay un error al compilar, se imprimirá este mensaje junto al error correspondiente.
         } catch (IOException ioe) {
             System.out.println("Se ha producido un error de lectura/escritura");
             System.err.println(ioe.getMessage());

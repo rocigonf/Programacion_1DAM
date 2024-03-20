@@ -50,6 +50,8 @@ public class Ej4U11 {
 
             br.close();
             bw.close();
+
+            //Sale un mensaje de fichero creado con éxito.
             System.out.println("El nuevo archivo ha sido creado satisfactoriamente.");
 
         //Si hay un error al compilar, se imprimirá este mensaje junto al error correspondiente.
