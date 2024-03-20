@@ -1,8 +1,0 @@
-texto2 fila 1
-texto2 fila 2
-texto2 fila 3
-texto2 fila 4
-texto2 fila 5
-texto2 fila 6
-texto2 fila 7
-texto2 fila 8
